@@ -36,20 +36,52 @@
 
 }
  .pages {
-   width: 800px;
+    color : #F1F2F4
     
+
+    }
+    .pages:active{
+        background-color: #F2A33A;;
+    }
+    #page1:active{
+        ;
+    }
+
   #2 {
     color: red;
     display :flex
 
 }
+#id2 {
+    color: #F1F2F4;
+}
 #text1{
-    color: #5B6472;
+    color : #F1F2F4
 }
 .body {
-    background-color: #22262D;
-}
+background: linear-gradient(135deg, #22262D, #3A404A);}
 #text2 {
-    color :#C7F36B;
-
+    color :#F2A33A;
+    
+}
+#h1text {
+    color : white
+}
+#text4{
+    color:#F2A33A ;
+}
+#text6{
+    color: #F1F2F4
+}
+#text5{
+    color: #22262D;
+}
+#text7{
+    color: white;
+}
+.infos{
+    color: #F1F2F4
+}
+.infos2{
+    color: white;
 }
