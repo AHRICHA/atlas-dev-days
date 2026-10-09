@@ -2,28 +2,29 @@
 
  .Inscriptionbutton {
             transition: background-color 0.4s;
-
+            transition: transform 50.6s;
             transition: box-shadow 0.15s ;
-            color: black;
-            background-color: #C7F36B;
+            color: #22262D;
+            background-color: #F2A33A;
             border: none;
-            height: 100px;
-            width: 200px;
+            padding-left: 40px;
+            padding-bottom: 40px;
+            padding-top: 40px;
+            padding-right: 40px;
             border-radius: 50px;
             cursor: pointer;
             border-width: 1px;
             font-weight : bold;
-            font-size : 22
+            font-size : 22;
+            
 
         }
         .Inscriptionbutton:hover {
-            background-color:#202530 ;
-            color: #C7F36B;
+            background-color: #F2A33A ;
+            color: black;
             opacity: 0.8;
             box-shadow: 4px 7px 0.15px #202530;
-            
-            
-
+            transform : scale(1.05)
         }
         .Inscriptionbutton:active {
             opacity: 0.6;
@@ -34,4 +35,21 @@
     margin-right: ;
 
 }
+ .pages {
+   width: 800px;
+    
+  #2 {
+    color: red;
+    display :flex
 
+}
+#text1{
+    color: #5B6472;
+}
+.body {
+    background-color: #22262D;
+}
+#text2 {
+    color :#C7F36B;
+
+}
